@@ -1,0 +1,11 @@
+.app-bg {
+  width: 100vw;
+  height: 100vh;
+  background: #4f46e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
