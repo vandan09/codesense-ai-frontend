@@ -1,12 +1,68 @@
-# React + Vite
+# CodeSense AI - Frontend Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodeSense AI is an intelligent pull request reviewer that uses AI to analyze GitHub PR diffs and provide contextual feedback. This repository contains the React-based frontend dashboard built with the Devias Kit template.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern UI with glassmorphic design (purple/white theme)
+- Dashboard showing:
+  - PR statistics
+  - Feedback trends
+  - Category-wise feedback insights
+- Reviews page showing detailed AI feedback on each PR
+- Sidebar navigation and responsive layout
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React JS
+- Tailwind CSS
+- Devias Kit (MUI + Custom styling)
+- Axios (for API calls)
+- Recharts (for visualizations)
+
+## 📁 Folder Structure
+
+src/
+├── api/ # API services
+├── components/ # Reusable UI components
+├── pages/ # Pages (Dashboard, Reviews, etc.)
+├── styles/ # Custom CSS
+├── App.js # Root component
+└── main.jsx # Entry point
+
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/codesense-ai-frontend.git
+cd codesense-ai-frontend
+```
+### 2. Install Dependencies
+
+npm install
+
+### 3. Configure Environment Variables
+Create a .env file in the root directory and add your backend API base URL:
+
+### 4. Start Development Server
+npm run dev
+
+## 📦 Deployment
+This project can be deployed using platforms like:
+
+Vercel
+
+Netlify
+
+Render
+
+## 🧠 Future Improvements
+Authentication integration
+
+PR filtering and search functionality
+
+Enhanced feedback categorization and filters
+
+Analytics for team-wide usage and performance
+
